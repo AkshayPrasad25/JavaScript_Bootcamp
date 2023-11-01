@@ -4,6 +4,16 @@
 let fruits = []
 //Using .push() method to append to the array/object
 fruits.push("apple", "banana", "orange")
+
+//Removing the first fruit from the array
+fruits.splice(0, 1);
+
+//Adding grape to the end of the array
+fruits.push("grape");
+
+//Updating the second fruit in the array to pear
+fruits[1] = "pear";
+
 //Printing the result on the console
 console.log("Assignment 1 Output")
 console.log(fruits)
