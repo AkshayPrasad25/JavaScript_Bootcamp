@@ -74,3 +74,34 @@ JavaScript Bootcamp assignments by codekaro.
     - Function: `multiplicationTable(n)`
     - Description: Prints the multiplication table for a positive integer up to 10.
 
+## CodeKaro JavaScript Bootcamp - Day 3
+
+## Assignment 1: Change Background Color
+
+### Task
+- Create an HTML document with a title element.
+- Add a heading (e.g., `<h1>Click anywhere on the page to change the background color!</h1>`) to explain the assignment's purpose.
+- Write a JavaScript function called `getRandomColor()` that generates a random color.
+- Write another JavaScript function called `changeBackgroundColor()` that sets the background color of the document's body to the random color obtained from `getRandomColor()`.
+- Add an `onclick` event to the entire document that calls the `changeBackgroundColor()` function whenever the user clicks anywhere on the page.
+- Test the assignment by opening the HTML document in a web browser. Verify that clicking anywhere on the page changes the background color.
+
+## Assignment 2: Display Names
+
+### Task
+- You are provided with an array of 10 Indian names: 
+    ```javascript
+    const names = [ "Aarav", "Sanya", "Vikram", "Neha", "Rohan", "Priya", "Amit", "Meera", "Rajiv", "Ananya" ];
+    ```
+- Create a simple web page featuring two buttons: "Next" and "Previous."
+- Design an HTML page with a space to display the names and include the "Next" and "Previous" buttons for navigation.
+- Upon loading the page, show the first name from the array.
+- When the "Next" button is clicked, display the next name in the array. If you reach the end of the array, wrap around to the beginning.
+- Clicking the "Previous" button should show the previous name in the array. If you're at the beginning, loop back to the end of the array.
+
+### Usage
+- Open `index.html` in a web browser to start the assignment.
+- You can navigate through the names using the "Next" and "Previous" buttons.
+
+Feel free to modify and expand upon these assignments as needed. Good luck with your learning and development!
+
