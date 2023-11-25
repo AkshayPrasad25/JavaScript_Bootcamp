@@ -46,6 +46,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
 }
 
 .headerleft {
@@ -133,6 +136,9 @@ li:hover {
     background-color: #383444;
 }
 
+.headchat:hover {
+    background-color:rgb(88,88,88);
+}
 
 
 .mainheader{
